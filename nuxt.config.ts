@@ -6,8 +6,8 @@ export default defineNuxtConfig({
         // '@nuxtjs/content',
         // Relative to your project srcDir
         // '~/modules/vsd',
-        '~/modules/vsp',
-        // 'vuetify-strapi-page',
+        //'~/modules/vsp',
+         'vuetify-strapi-page',
         // Providing options
     ]
 })
