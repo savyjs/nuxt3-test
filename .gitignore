@@ -1,0 +1,10 @@
+node_modules
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+.env
+./modules
+./modules/*
+./yarn.lock
