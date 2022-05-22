@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@nuxtjs/content": "^0.3.0",
-    "vuetify-strapi-page": "^0.1.97",
-    "@nuxtjs/google-analytics": "^2.4.0"
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/vuetify": "^1.12.3",
+    "vuetify-strapi-page": "^0.2.4"
   }
 }
