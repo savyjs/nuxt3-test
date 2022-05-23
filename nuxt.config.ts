@@ -3,10 +3,10 @@ import {defineNuxtConfig} from 'nuxt'
 export default defineNuxtConfig({
     modules: [
         // Using package name
-        // '@nuxtjs/content',
+        // '@nuxt/content',
         // Relative to your project srcDir
         // '~/modules/vsd',
-        '~/modules/vsp',
+        '~/modules/ntm',
         // 'vuetify-strapi-page',
         // Providing options
     ]

@@ -1,10 +1,14 @@
 <template>
+  <div>
+    <NtmHeader />
 
+    body
+    <NtmFooter />
+  </div>
 </template>
-<script>
+<script setup>
 definePageMeta({
   title: 'nuxt 3 tailwind marketplace theme',
-  layout: 'TailShop'
+  layout: 'NtmMarket'
 })
-
 </script>

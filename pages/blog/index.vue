@@ -1,8 +1,8 @@
 <template>
-  <p>Hi 2</p>
+  <NtmLatestPosts/>
 </template>
 <script setup>
 definePageMeta({
-  layout: "NtmPanel",
-});
+  layout: 'NtmBlog'
+})
 </script>
