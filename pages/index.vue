@@ -1,12 +1,9 @@
 <template>
   <div>
-    <NtmHeader />
-
-    body
-    <NtmFooter />
+    Index
   </div>
 </template>
-<script setup>
+<script>
 definePageMeta({
   title: 'nuxt 3 tailwind marketplace theme',
   layout: 'NtmMarket'
