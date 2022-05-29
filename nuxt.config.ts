@@ -3,11 +3,14 @@ import {defineNuxtConfig} from 'nuxt'
 export default defineNuxtConfig({
     modules: [
         // Using package name
-        // '@nuxt/content',
+        '@nuxt/content',
         // Relative to your project srcDir
         // '~/modules/vsd',
         '~/modules/ntm',
         // 'vuetify-strapi-page',
         // Providing options
-    ]
+    ],
+    content: {
+        base: '/content'
+    }
 })
