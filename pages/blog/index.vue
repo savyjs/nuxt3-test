@@ -6,7 +6,5 @@
 <script setup>
 const articles = await queryContent('/').find()
 console.log({articles})
-definePageMeta({
-
-})
+definePageMeta({})
 </script>
