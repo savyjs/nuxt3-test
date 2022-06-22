@@ -1,22 +1,23 @@
 <template>
   <div>
     <div class="">
+      PAGE
       <div class="">
         <section class="w-full">
-          <Slider />
+          <NtmSlider/>
         </section>
         <div class="container mx-auto block">
           <section class="w-full">
-            <DigiBranchs />
+            <NtmBranchs/>
           </section>
           <section class="w-full">
-            <Incredible />
+            <NtmIncredible/>
           </section>
           <section>
-            <Banners />
+            <NtmBanners/>
           </section>
           <section>
-            <Categories />
+            <NtmCategories/>
           </section>
         </div>
       </div>
