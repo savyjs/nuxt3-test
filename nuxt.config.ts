@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     ],
     modules: [
         // Using package name
-        '@nuxt/content',
+        // '@nuxt/content',
         // Relative to your project srcDir
         '~/../..',
         // Providing options
