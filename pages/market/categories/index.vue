@@ -1,8 +1,8 @@
 <template>
   <NtmCategories
-      v-bind="data"
+      :items="categories"
   />
 </template>
 <script setup>
-const {data} = await useFetch(`/api/market/categories`)
+const categories = await $fetch(`/api/market/categories`)
 </script>
